@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1860E2B4667399D85298B88C0734F68D /* DemanglePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB302F12D86409E645836F7A63D2A6F7 /* DemanglePod-dummy.m */; };
+		30129A409BC65D9626D16C658BDC6BA3 /* AnyBadgeViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F94116D8BBD97887CCCD5D6E957894 /* AnyBadgeViewStyle.swift */; };
+		34EEC33B2587BEBCEF537B725446E9C5 /* BadgeViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905131491A70F737BEDBAC9C7A0A706A /* BadgeViewStyle.swift */; };
+		5CA7340AC26DCF349597963D995B3D94 /* Pods-Demangle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F600510A97C1346AE78252F7FF6738BB /* Pods-Demangle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629C5220251EFD2F8239A518893810EF /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC4DD8097EDFAF3BB05A7B83B2A8F9 /* BadgeView.swift */; };
+		71BCDD87E6182C9D59BFEBF319B41191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9012EC0C75BF6327D4AB78392DF68BDE /* DemanglePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D036122BB7376135BC0802C90044C34 /* DemanglePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906C41009E541201F9A2C0ED85A21EB1 /* BadgeViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8941A6CA2D71571750FD1966230B520 /* BadgeViewContainer.swift */; };
+		B244C28B82F60C05F0C328EBB6618CEC /* Pods-Demangle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19822F666B5F178AE4AEB7E12316B390 /* Pods-Demangle-dummy.m */; };
+		D9115005C7BA20FE67C6057B3CB91436 /* BadgeViewStyle+Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC9F36DD8C2356753BCCDF7D07EF64 /* BadgeViewStyle+Environment.swift */; };
+		F661892C0F0AA74E88E323C1EC03A872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B1DE587E0EFA17366BF73F953A520A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B99C519F308657F76C7964072793D01E;
+			remoteInfo = DemanglePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022E364DFA9DAC1E6EDB53120B597524 /* DemanglePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemanglePod-prefix.pch"; sourceTree = "<group>"; };
+		1584123BC99C74EDBBA2DBFBE9E23988 /* DemanglePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemanglePod.debug.xcconfig; sourceTree = "<group>"; };
+		19822F666B5F178AE4AEB7E12316B390 /* Pods-Demangle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demangle-dummy.m"; sourceTree = "<group>"; };
+		1D036122BB7376135BC0802C90044C34 /* DemanglePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemanglePod-umbrella.h"; sourceTree = "<group>"; };
+		3A77843732E428153C01A3F41FDDC543 /* Pods-Demangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demangle.debug.xcconfig"; sourceTree = "<group>"; };
+		64F39AB98CB3160FDF3FD6A0BBB15C1E /* DemanglePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemanglePod.modulemap; sourceTree = "<group>"; };
+		66A49482F2FB75983398D174FDDED33F /* DemanglePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemanglePod-Info.plist"; sourceTree = "<group>"; };
+		720C03DFC465B4191F85AA7B643B8183 /* Pods-Demangle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demangle-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		905131491A70F737BEDBAC9C7A0A706A /* BadgeViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewStyle.swift; path = DemanglePod/Classes/BadgeViewStyle.swift; sourceTree = "<group>"; };
+		92AC9F36DD8C2356753BCCDF7D07EF64 /* BadgeViewStyle+Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BadgeViewStyle+Environment.swift"; path = "DemanglePod/Classes/BadgeViewStyle+Environment.swift"; sourceTree = "<group>"; };
+		96BF25A8FB53839133ED9305DD5C27F8 /* Pods-Demangle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demangle-Info.plist"; sourceTree = "<group>"; };
+		982D179B98EE3DF8FC5C62B22C9E16F2 /* Pods-Demangle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demangle.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A644BCD4BA84792CAA37D79C5D82EC23 /* Pods-Demangle */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demangle"; path = Pods_Demangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AC4DD8097EDFAF3BB05A7B83B2A8F9 /* BadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeView.swift; path = DemanglePod/Classes/BadgeView.swift; sourceTree = "<group>"; };
+		A9716CE52452B7DBDA97CD58E2D11894 /* DemanglePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DemanglePod; path = DemanglePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC220D770BDD92613B044CA261A15B34 /* Pods-Demangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demangle.release.xcconfig"; sourceTree = "<group>"; };
+		B80EDDAFAA242602BD04E6A7C16DCA23 /* DemanglePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemanglePod.release.xcconfig; sourceTree = "<group>"; };
+		C0F94116D8BBD97887CCCD5D6E957894 /* AnyBadgeViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyBadgeViewStyle.swift; path = DemanglePod/Classes/AnyBadgeViewStyle.swift; sourceTree = "<group>"; };
+		D8941A6CA2D71571750FD1966230B520 /* BadgeViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewContainer.swift; path = DemanglePod/Classes/BadgeViewContainer.swift; sourceTree = "<group>"; };
+		E349D1421E7AF46ADB3B0620CC89F5F2 /* Pods-Demangle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demangle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F600510A97C1346AE78252F7FF6738BB /* Pods-Demangle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demangle-umbrella.h"; sourceTree = "<group>"; };
+		F6EFC75548883C950C81FB8F01363DD1 /* Pods-Demangle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demangle-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB302F12D86409E645836F7A63D2A6F7 /* DemanglePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemanglePod-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2712AB629CC8FFD253DA6F163ADFE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BCDD87E6182C9D59BFEBF319B41191 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FF82F1D2049680E3BB63F61A215A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661892C0F0AA74E88E323C1EC03A872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AF851CAC38877A48A40BEA73087EEB /* Pods-Demangle */ = {
+			isa = PBXGroup;
+			children = (
+				982D179B98EE3DF8FC5C62B22C9E16F2 /* Pods-Demangle.modulemap */,
+				E349D1421E7AF46ADB3B0620CC89F5F2 /* Pods-Demangle-acknowledgements.markdown */,
+				F6EFC75548883C950C81FB8F01363DD1 /* Pods-Demangle-acknowledgements.plist */,
+				19822F666B5F178AE4AEB7E12316B390 /* Pods-Demangle-dummy.m */,
+				720C03DFC465B4191F85AA7B643B8183 /* Pods-Demangle-frameworks.sh */,
+				96BF25A8FB53839133ED9305DD5C27F8 /* Pods-Demangle-Info.plist */,
+				F600510A97C1346AE78252F7FF6738BB /* Pods-Demangle-umbrella.h */,
+				3A77843732E428153C01A3F41FDDC543 /* Pods-Demangle.debug.xcconfig */,
+				AC220D770BDD92613B044CA261A15B34 /* Pods-Demangle.release.xcconfig */,
+			);
+			name = "Pods-Demangle";
+			path = "Target Support Files/Pods-Demangle";
+			sourceTree = "<group>";
+		};
+		45B5D4B40B5674A7C05467B3118DE882 /* DemanglePod */ = {
+			isa = PBXGroup;
+			children = (
+				C0F94116D8BBD97887CCCD5D6E957894 /* AnyBadgeViewStyle.swift */,
+				A6AC4DD8097EDFAF3BB05A7B83B2A8F9 /* BadgeView.swift */,
+				D8941A6CA2D71571750FD1966230B520 /* BadgeViewContainer.swift */,
+				905131491A70F737BEDBAC9C7A0A706A /* BadgeViewStyle.swift */,
+				92AC9F36DD8C2356753BCCDF7D07EF64 /* BadgeViewStyle+Environment.swift */,
+				F74210F3A539034683318605C977766D /* Support Files */,
+			);
+			name = DemanglePod;
+			path = DemanglePod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF4A7B9CFAAC0B55C9B4906D9507A5D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AF851CAC38877A48A40BEA73087EEB /* Pods-Demangle */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F70F64FAC01423F16FB358EB3BD29C8B /* Pods */,
+				EEE519BC9D182404D8C5A12DABC9E623 /* Products */,
+				AF4A7B9CFAAC0B55C9B4906D9507A5D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE519BC9D182404D8C5A12DABC9E623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9716CE52452B7DBDA97CD58E2D11894 /* DemanglePod */,
+				A644BCD4BA84792CAA37D79C5D82EC23 /* Pods-Demangle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70F64FAC01423F16FB358EB3BD29C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B5D4B40B5674A7C05467B3118DE882 /* DemanglePod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F74210F3A539034683318605C977766D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F39AB98CB3160FDF3FD6A0BBB15C1E /* DemanglePod.modulemap */,
+				FB302F12D86409E645836F7A63D2A6F7 /* DemanglePod-dummy.m */,
+				66A49482F2FB75983398D174FDDED33F /* DemanglePod-Info.plist */,
+				022E364DFA9DAC1E6EDB53120B597524 /* DemanglePod-prefix.pch */,
+				1D036122BB7376135BC0802C90044C34 /* DemanglePod-umbrella.h */,
+				1584123BC99C74EDBBA2DBFBE9E23988 /* DemanglePod.debug.xcconfig */,
+				B80EDDAFAA242602BD04E6A7C16DCA23 /* DemanglePod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DemanglePod";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6258BD9E409D4E677A73CD15115620C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012EC0C75BF6327D4AB78392DF68BDE /* DemanglePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BDF5ACE0EAF8776E2C1583A55BDFED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7340AC26DCF349597963D995B3D94 /* Pods-Demangle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A975D2E6F87E1C06BBA8800AEEC31B97 /* Pods-Demangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBAC82EF4418B7AB083A2977756D8FE /* Build configuration list for PBXNativeTarget "Pods-Demangle" */;
+			buildPhases = (
+				70BDF5ACE0EAF8776E2C1583A55BDFED /* Headers */,
+				06A9E58FA0749B50714C6E5B013F8862 /* Sources */,
+				C0FF82F1D2049680E3BB63F61A215A0D /* Frameworks */,
+				6A1EB1F7537E061EF181D6DFB72E6902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286526CB5FF35B3EEDD548FD2FB0F3EF /* PBXTargetDependency */,
+			);
+			name = "Pods-Demangle";
+			productName = Pods_Demangle;
+			productReference = A644BCD4BA84792CAA37D79C5D82EC23 /* Pods-Demangle */;
+			productType = "com.apple.product-type.framework";
+		};
+		B99C519F308657F76C7964072793D01E /* DemanglePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A0C0EC2744AE7EBD4B48FDF63A9B95 /* Build configuration list for PBXNativeTarget "DemanglePod" */;
+			buildPhases = (
+				6258BD9E409D4E677A73CD15115620C5 /* Headers */,
+				F92AD3B668A8CE92F978C7A054FE8F94 /* Sources */,
+				A2712AB629CC8FFD253DA6F163ADFE73 /* Frameworks */,
+				51CC2DF3CEA3BA69E1761B2707BEF79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemanglePod;
+			productName = DemanglePod;
+			productReference = A9716CE52452B7DBDA97CD58E2D11894 /* DemanglePod */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EEE519BC9D182404D8C5A12DABC9E623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B99C519F308657F76C7964072793D01E /* DemanglePod */,
+				A975D2E6F87E1C06BBA8800AEEC31B97 /* Pods-Demangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51CC2DF3CEA3BA69E1761B2707BEF79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1EB1F7537E061EF181D6DFB72E6902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A9E58FA0749B50714C6E5B013F8862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B244C28B82F60C05F0C328EBB6618CEC /* Pods-Demangle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92AD3B668A8CE92F978C7A054FE8F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30129A409BC65D9626D16C658BDC6BA3 /* AnyBadgeViewStyle.swift in Sources */,
+				629C5220251EFD2F8239A518893810EF /* BadgeView.swift in Sources */,
+				906C41009E541201F9A2C0ED85A21EB1 /* BadgeViewContainer.swift in Sources */,
+				34EEC33B2587BEBCEF537B725446E9C5 /* BadgeViewStyle.swift in Sources */,
+				D9115005C7BA20FE67C6057B3CB91436 /* BadgeViewStyle+Environment.swift in Sources */,
+				1860E2B4667399D85298B88C0734F68D /* DemanglePod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286526CB5FF35B3EEDD548FD2FB0F3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DemanglePod;
+			target = B99C519F308657F76C7964072793D01E /* DemanglePod */;
+			targetProxy = 16B1DE587E0EFA17366BF73F953A520A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39F8D547131A6CC56F793527C9541A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1584123BC99C74EDBBA2DBFBE9E23988 /* DemanglePod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DemanglePod/DemanglePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DemanglePod/DemanglePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DemanglePod/DemanglePod.modulemap";
+				PRODUCT_MODULE_NAME = DemanglePod;
+				PRODUCT_NAME = DemanglePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		421B379D0D9B2609D8111930A92E243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A77843732E428153C01A3F41FDDC543 /* Pods-Demangle.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demangle/Pods-Demangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demangle/Pods-Demangle.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F899651909AB5967DBE401574042AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80EDDAFAA242602BD04E6A7C16DCA23 /* DemanglePod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DemanglePod/DemanglePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DemanglePod/DemanglePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DemanglePod/DemanglePod.modulemap";
+				PRODUCT_MODULE_NAME = DemanglePod;
+				PRODUCT_NAME = DemanglePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B415DAECF047642B5060791F10E59327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC220D770BDD92613B044CA261A15B34 /* Pods-Demangle.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demangle/Pods-Demangle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demangle/Pods-Demangle.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A0C0EC2744AE7EBD4B48FDF63A9B95 /* Build configuration list for PBXNativeTarget "DemanglePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8D547131A6CC56F793527C9541A53 /* Debug */,
+				8F899651909AB5967DBE401574042AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBAC82EF4418B7AB083A2977756D8FE /* Build configuration list for PBXNativeTarget "Pods-Demangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421B379D0D9B2609D8111930A92E243C /* Debug */,
+				B415DAECF047642B5060791F10E59327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

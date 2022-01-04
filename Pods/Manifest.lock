@@ -1,0 +1,22 @@
+PODS:
+  - DemanglePod (0.1.0)
+
+DEPENDENCIES:
+  - DemanglePod (from `https://github.com/kerrmarin-lvmh/DemanglePod.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  DemanglePod:
+    :branch: main
+    :git: https://github.com/kerrmarin-lvmh/DemanglePod.git
+
+CHECKOUT OPTIONS:
+  DemanglePod:
+    :commit: d4deef2c544adb726569ce38d431906748f48cd0
+    :git: https://github.com/kerrmarin-lvmh/DemanglePod.git
+
+SPEC CHECKSUMS:
+  DemanglePod: e59683f287d08a57e4b42dca86206fc7421a222b
+
+PODFILE CHECKSUM: 25e08b14ccac4806ca9d40ed5353ba3710a61e4f
+
+COCOAPODS: 1.11.2

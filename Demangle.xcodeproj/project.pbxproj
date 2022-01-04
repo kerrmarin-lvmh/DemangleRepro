@@ -11,14 +11,20 @@
 		8FDD52FE278464080028549D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD52FD278464080028549D /* ContentView.swift */; };
 		8FDD53002784640A0028549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD52FF2784640A0028549D /* Assets.xcassets */; };
 		8FDD53032784640A0028549D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD53022784640A0028549D /* Preview Assets.xcassets */; };
+		8FDD5312278467B00028549D /* LocalContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD5311278467B00028549D /* LocalContainer.swift */; };
+		E47658F5C0FC4D193E218824 /* Pods_Demangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954811D64A771E8D6A33984F /* Pods_Demangle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BB7EAE7A79D84E6FEF832CD /* Pods-Demangle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demangle.debug.xcconfig"; path = "Target Support Files/Pods-Demangle/Pods-Demangle.debug.xcconfig"; sourceTree = "<group>"; };
+		59999CF6246665ACE1753714 /* Pods-Demangle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demangle.release.xcconfig"; path = "Target Support Files/Pods-Demangle/Pods-Demangle.release.xcconfig"; sourceTree = "<group>"; };
 		8FDD52F8278464080028549D /* Demangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDD52FB278464080028549D /* DemangleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemangleApp.swift; sourceTree = "<group>"; };
 		8FDD52FD278464080028549D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FDD52FF2784640A0028549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FDD53022784640A0028549D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FDD5311278467B00028549D /* LocalContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalContainer.swift; sourceTree = "<group>"; };
+		954811D64A771E8D6A33984F /* Pods_Demangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +32,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47658F5C0FC4D193E218824 /* Pods_Demangle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65793128875B5780FA1E9BC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BB7EAE7A79D84E6FEF832CD /* Pods-Demangle.debug.xcconfig */,
+				59999CF6246665ACE1753714 /* Pods-Demangle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8FDD52EF278464080028549D = {
 			isa = PBXGroup;
 			children = (
 				8FDD52FA278464080028549D /* Demangle */,
 				8FDD52F9278464080028549D /* Products */,
+				65793128875B5780FA1E9BC9 /* Pods */,
+				CBF43082D50DD9E3873179AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +73,7 @@
 				8FDD52FD278464080028549D /* ContentView.swift */,
 				8FDD52FF2784640A0028549D /* Assets.xcassets */,
 				8FDD53012784640A0028549D /* Preview Content */,
+				8FDD5311278467B00028549D /* LocalContainer.swift */,
 			);
 			path = Demangle;
 			sourceTree = "<group>";
@@ -67,6 +86,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CBF43082D50DD9E3873179AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954811D64A771E8D6A33984F /* Pods_Demangle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FDD53062784640A0028549D /* Build configuration list for PBXNativeTarget "Demangle" */;
 			buildPhases = (
+				8BE3CD4BA2B1012956D91BC4 /* [CP] Check Pods Manifest.lock */,
 				8FDD52F4278464080028549D /* Sources */,
 				8FDD52F5278464080028549D /* Frameworks */,
 				8FDD52F6278464080028549D /* Resources */,
+				05BFEF7D01955BA3A989F739 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +161,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05BFEF7D01955BA3A989F739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demangle/Pods-Demangle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demangle/Pods-Demangle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demangle/Pods-Demangle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE3CD4BA2B1012956D91BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demangle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FDD52F4278464080028549D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +210,7 @@
 			files = (
 				8FDD52FE278464080028549D /* ContentView.swift in Sources */,
 				8FDD52FC278464080028549D /* DemangleApp.swift in Sources */,
+				8FDD5312278467B00028549D /* LocalContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +335,7 @@
 		};
 		8FDD53072784640A0028549D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB7EAE7A79D84E6FEF832CD /* Pods-Demangle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +364,7 @@
 		};
 		8FDD53082784640A0028549D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59999CF6246665ACE1753714 /* Pods-Demangle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
